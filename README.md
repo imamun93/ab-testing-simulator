@@ -16,15 +16,14 @@ This project simulates an A/B test to evaluate the performance of two different 
 ## 🧰 Tools Used
 
 - Python (Pandas, NumPy, SciPy, Seaborn)
-- SQL (optional future extension)
-- Excel (for presentation or summary)
+- Excel (for raw data storage)
 - Jupyter Notebooks
 
 ---
 
 ## 📊 Project Summary
-
+Group B showed a 13% conversion rate, compared to Group A's 11%, representing an absolute lift of 2% and a relative lift of 18.18%. A z-test for proportions yielded a p-value of 0.02, indicating the result is statistically significant at the 95% confidence level.
 - 20,000 simulated user sessions split between Group A and Group B
-- Group B shows a higher conversion rate (13% vs. 11%)
+- Group B shows a higher conversion rate (~13.66% vs. 10.65%)
 - Z-test for proportions shows statistically significant difference (p < 0.05)
 - Recommendation: rollout version B
